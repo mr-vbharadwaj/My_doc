@@ -1,0 +1,91 @@
+    1  sudp apt get update
+    2  sudo apt get update
+    3  sudo apt-get update
+    4  sudo apt install docker.io
+    5  sudo systemctl start docker
+    6  sudo systemctl enable docker
+    7  docker pull leplusorg/kali
+    8  sudo useradd -aG $VB
+    9  sudo useradd $VB
+   10  sudo usermod -aG docker $VB
+   11  sudo usermod -aG docker $USER
+   12  newgrp docker
+   13  docker images
+   14  history
+   15  history > text.txt
+   16  ls
+   17  sudo apt install git
+   18  git init
+   19  git remote add origin https://github.com/mr-vbharadwaj/My_doc.git
+   20  git add .
+   21  git commit -m "History of docker installation & initialisation is added"
+   22  git config user.name "VB"
+   23  git config user.email "varunbharadwajmv@gmail.com"
+   24  git commit -m "History of docker installation & initialisation is added"
+   25  git push origin master
+   26  mkdir git_folder
+   27  cd git_folder/
+   28  git clone https://github.com/mr-vbharadwaj/My_doc.git
+   29  mv ../text.txt ./text.txt
+   30  ls
+   31  cd My_doc/
+   32  ls
+   33  mv ../text.txt ./text.txt
+   34  ls
+   35  git add .
+   36  git commit -m "History of docker installation & initialisation is added"
+   37  git config user.name "VB"
+   38  git config user.email "varunbharadwajmv@gmail.com"
+   39  git push origin master
+   40  git push origin
+   41  git config -e
+   42  cd ..
+   43  ls
+   44  rm -r My_doc/
+   45  y
+   46  ls -a
+   47  cd .
+   48  cd ..
+   49  ls
+   50  rm -r git_folder/
+   51  ls
+   52  ls -a
+   53  rm -r .git
+   54  modir git_folder
+   55  mkdir git_folder
+   56  cd git_folder/
+   57  git init
+   58  git clone https://github.com/mr-vbharadwaj/My_doc.git
+   59  ls
+   60  cd My_doc/
+   61  ls
+   62  history > text.txt
+   63  git status
+   64  git add .
+   65  git commit -m "History of the commands to install docker was added"
+   66  git config --global user.name "mr-vbharadwaj"
+   67  git config --global user.email "varunbharadwajmv@gmail.com"
+   68  git remote add origin https://github.com/mr-vbharadwaj/My_doc.git
+   69  git push origin
+   70  ssh-keygen -t rsa -b 4096 -c "varunbharadwajmv@gmail.com"
+   71  ssh-keygen -t rsa -b 4096 -C "varunbharadwajmv@gmail.com"
+   72  eval "$(ssh-agent -s)"
+   73  ssh-add ~/.ssh/id_rsa
+   74  cat ~/.ssh/id_rsa.pub
+   75  cd ..
+   76  cd git_folder/
+   77  cd ..
+   78  rm -r git_folder/
+   79  ls -a
+   80  cd git_folder/
+   81  ls
+   82  cd ..
+   83  rm -r git_folder/
+   84  ls -a
+   85  mkdir git_folder
+   86  cd git_folder/
+   87  git clone git@github.com:mr-vbharadwaj/My_doc.git
+   88  ls -a
+   89  cd My_doc/
+   90  ls -a
+   91  history > text.txt
